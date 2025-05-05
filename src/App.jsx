@@ -663,7 +663,7 @@ function App() {
         </div>
 
         <div className="footer-bottom">
-          <p className="copyright">© 2023 Sneakers. All rights reserved.</p>
+          <p className="copyright">© 2025 Sneakers. All rights reserved.</p>
         </div>
       </footer>
     </div>
