@@ -24,10 +24,10 @@ import "./App.css"
 function App() {
   // Product images array
   const productImages = [
-    "/public/sneaker-1.jpg",
-    "/public/sneaker-2.jpg",
-    "/public/sneaker-3.jpg",
-    "/public/sneaker-4.jpg",
+    "/sneaker-1.jpg",
+    "/sneaker-2.jpg",
+    "/sneaker-3.jpg",
+    "/sneaker-4.jpg",
   ]
 
 
@@ -574,7 +574,7 @@ function App() {
             {[1, 2, 3, 4,].map((item) => (
               <div key={item} className="related-product">
                 <div className="related-product-image">
-                  <img src={`/public/related-${item}.jpg`} alt={`Related Product ${item}`} />
+                  <img src={`/related-${item}.jpg`} alt={`Related Product ${item}`} />
                 </div>
                 <div className="related-product-info">
                   <h4 className="related-product-title">Classic Running Sneakers</h4>
